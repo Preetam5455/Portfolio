@@ -71,19 +71,19 @@ function Experience() {
     <div className="projects-details">
       <ul className="project-list">
         <li className="project">
-          <h4 className="project-name">React Todo List with Node and PostgreSql:-<a className='projects-links' target='_blank' href='https://preetam5455.github.io/frontend-react-todo-app-node-postgresql/'> live link</a></h4>
+          <h4 className="project-name">React Todo List with Node and PostgreSql:-<a className='projects-links' target='_blank' rel="noopener noreferrer" href='https://preetam5455.github.io/frontend-react-todo-app-node-postgresql/'> live link</a></h4>
           </li>
         <li className="project">
-        <h4 className="project-name">Java Script Calculator:-<a className='projects-links' target='_blank' href='https://preetam5455.github.io/Calculator/'> live link</a></h4>
+        <h4 className="project-name">Java Script Calculator:-<a className='projects-links' target='_blank' rel="noopener noreferrer" href='https://preetam5455.github.io/Calculator/'> live link</a></h4>
           </li>
         <li className="project">
-        <h4 className="project-name">React Weather App:-<a className='projects-links' target='_blank' href='https://preetam5455.github.io/WeatherApp/'> live link</a></h4>
+        <h4 className="project-name">React Weather App:-<a className='projects-links' target='_blank' rel="noopener noreferrer" href='https://preetam5455.github.io/WeatherApp/'> live link</a></h4>
           </li>
         <li className="project">
-        <h4 className="project-name">React Password Generator:-<a className='projects-links' target='_blank' href='https://preetam5455.github.io/password-genrator-react-app/'> live link</a></h4>
+        <h4 className="project-name">React Password Generator:-<a className='projects-links' target='_blank' rel="noopener noreferrer" href='https://preetam5455.github.io/password-genrator-react-app/'> live link</a></h4>
         </li>
         <li className="project">
-        <h4 className="project-name">React Currency Converter:-<a className='projects-links' target='_blank' href='https://preetam5455.github.io/currency-converter-react-app/'> live link</a></h4>
+        <h4 className="project-name">React Currency Converter:-<a className='projects-links' target='_blank' rel="noopener noreferrer" href='https://preetam5455.github.io/currency-converter-react-app/'> live link</a></h4>
         </li>
       </ul>
     </div>
