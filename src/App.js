@@ -5,7 +5,7 @@ import Skills from './components/skills';
 import Experience from './components/experience';
 import Contact from './components/contact';
 import HobbiesAndLang from './components/hobbies-and-Languages';
-import cv from './assets/updated resume 08-02.pdf';
+import cv from './assets/preetam chavan resume 24-11.pdf';
 
 function App() {
   return (
