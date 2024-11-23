@@ -1,0 +1,347 @@
+/* Global styles (you can customize these variables according to your design) */
+:root {
+    --main-color: #3498db; /* Your main color */
+    --text-color: #fff; /* Your text color */
+    --p-font: 16px; /* Your paragraph font size */
+}
+
+/* Header styles */
+
+.header_portfolio_text {
+    color: var(--text-color);
+    font-size: 2rem; /* Responsive font size */
+    font-weight: 600;
+}
+
+.header_portfolio_text span {
+    color: var(--main-color);
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.navbar div {
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.navbar div:hover {
+    color: var(--main-color);
+}
+
+/* Home section styles */
+
+.skills_data{
+    display: flex;
+    position: relative;
+    top: 150px;
+    transition: all ease 0.3s;
+
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.about_section{
+    margin: 30px;
+}
+
+.skills_text{
+    width:566px;
+    margin:40px;
+    text-align: center;
+    flex: 1;
+}
+
+
+.skills_photo{
+    width: 500px;
+    margin: 40px;
+    text-align: center;
+    flex: 1;
+}
+
+.footer_icons{
+    display: flex;
+}
+
+
+
+.skills_progress-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.progress{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.progress_text{
+    font-size: 14px;
+}
+.progress_outer{
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    background: var(--text-color);
+    box-shadow:inset 0px 0px 0px 0px rgba(251, 248, 248, 0.15), 0px -1px 0px -2px rgba(255,255,255,0.7);
+    border-radius: 50%;
+    
+}
+.progress_inner{
+    width: 120px;
+    height: 120px;
+    background: var(--bg-color);
+    box-shadow:inset 0px 0px 0px 0px rgba(251, 248, 248, 0.5), inset 0px 0px 0px 0px rgba(255,255,255,0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.htmlcss circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim 2.5s linear forwards;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 157.5;
+    }
+}
+
+.javascript circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: animjs 2.5s linear forwards;
+}
+
+@keyframes animjs{
+    100%{
+        stroke-dashoffset: 190;
+    }
+}
+
+.typscript circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: animtyps 2s linear forwards;
+}
+
+@keyframes animtyps{
+    100%{
+        stroke-dashoffset: 225;
+    }
+}
+
+.lit circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: animlit 3s linear forwards;
+}
+
+@keyframes animlit{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+.webcomponents circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: animlweb 3s linear forwards;
+}
+
+@keyframes animlweb{
+    100%{
+        stroke-dashoffset: 70;
+    }
+}
+
+.react circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: animlreact 2.5s linear forwards;
+}
+
+@keyframes animlreact{
+    100%{
+        stroke-dashoffset: 190;
+    }
+}
+
+.animlassess circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: animlassess 2s linear forwards;
+}
+
+@keyframes animlassess{
+    100%{
+        stroke-dashoffset: 225;
+    }
+}
+
+.git circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: git 2s linear forwards;
+}
+
+@keyframes git{
+    100%{
+        stroke-dashoffset: 190;
+    }
+}
+.gitdek circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: gitdek 3s linear forwards;
+}
+
+@keyframes gitdek{
+    100%{
+        stroke-dashoffset: 10;
+    }
+}
+.Jira circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: Jira 3s linear forwards;
+}
+
+@keyframes Jira{
+    100%{
+        stroke-dashoffset: 135;
+    }
+}
+.Chatgpt circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: Chatgpt 2s linear forwards;
+}
+
+@keyframes Chatgpt{
+    100%{
+        stroke-dashoffset: 157.5;
+    }
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* .home_section {
+    position: relative;
+    top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 15%;
+} */
+
+/* .home-text {
+    margin: 10px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.home_section{
+    width: 100%;    
+    padding-top: 150px;
+    display: flex;
+}
+
+.home-text span {
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.home-text h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.home-text p {
+    font-size: var(--p-font);
+    color: var(--text-color);
+}
+
+.home_container-img img {
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+} */
+
+/* Media Query for Medium Screens */
+@media only screen and (max-width: 768px) {
+    .home header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
+
+    .navbar {
+        margin-top: 20px; /* Add some spacing between the header elements */
+    }
+
+    .navbar div {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .skills_data{
+        top: 200px;
+    }
+}
