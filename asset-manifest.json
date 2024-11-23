@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b8b3fdfa.css",
-    "main.js": "/Portfolio/static/js/main.78c284ed.js",
-    "static/media/updated resume 08-02.pdf": "/Portfolio/static/media/updated resume 08-02.6a6109c10a289bcc91fb.pdf",
+    "main.js": "/Portfolio/static/js/main.d2d52d4f.js",
+    "static/media/preetam chavan resume 24-11.pdf": "/Portfolio/static/media/preetam chavan resume 24-11.3d926ed26ff917346e59.pdf",
     "static/media/1706554951052.jpg": "/Portfolio/static/media/1706554951052.97fe3d7b5b0b972206ef.jpg",
     "static/media/insta.png": "/Portfolio/static/media/insta.79535458a8a6d88f81d4.png",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.b543965794897027099a.png",
     "index.html": "/Portfolio/index.html",
     "main.b8b3fdfa.css.map": "/Portfolio/static/css/main.b8b3fdfa.css.map",
-    "main.78c284ed.js.map": "/Portfolio/static/js/main.78c284ed.js.map"
+    "main.d2d52d4f.js.map": "/Portfolio/static/js/main.d2d52d4f.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b3fdfa.css",
-    "static/js/main.78c284ed.js"
+    "static/js/main.d2d52d4f.js"
   ]
 }
