@@ -12,7 +12,13 @@ function Home() {
         <div className="profile_text">
           <h2 className="role_title">Developer</h2>
           <h1>Preetam Chavan</h1>
-          <div className="about_section">Dedicated Developer with 3+ years of experience bridging frontend and backend technologies to deliver seamless web applications. Skilled in JavaScript,   React.js, Node.js, Express, and database solutions, with a focus on building responsive, high-quality applications that meet user needs. Strong team player with excellent problem-solving abilities and a passion for continuous learning in a fast-paced development environment.
+          <div className="about_section">Experienced developer with 3+ years of building efficient, 
+high-performance web applications with good analyzing and 
+problem-solving. Expertise in React.js, JavaScript, Node.js, 
+and Web Components, with a passion for enhancing user 
+experiences and continuously evolving technical skills and a 
+passion for continuous learning in a fast-paced 
+development environment.
           </div>
             <div className="footer_icons">Check out me on:
               <a target='_blank' href='https://www.linkedin.com/in/preetam-chavan-a72b59221/' rel="noopener noreferrer"><img id='icons-logo' src={linkedin}/></a>
